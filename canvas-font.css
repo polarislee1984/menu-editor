@@ -1,0 +1,724 @@
+/*************Fonts*******************/
+/*  06/11/2015 */
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Jura');
+@import url('https://fonts.googleapis.com/css?family=Andika&subset=latin,cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700&subset=latin,cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900italic,700,100,300,500,100italic,300italic,400italic,500italic,700italic,900&subset=latin,cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap&subset=latin-ext');
+/* 11/05/2018  */
+
+/*@import url('https://fonts.googleapis.com/earlyaccess/hannari.css');*/ /*Hannari*/
+/*@import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');*/ /*Noto Sans Japanese*/
+
+@font-face {
+	font-family: 'angelinaregular';
+	src: url('../fonts/angelina-webfont.eot');
+	src: url('../fonts/angelina-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/angelina-webfont.woff') format('woff'), url('../fonts/angelina-webfont.ttf') format('truetype'), url('../fonts/angelina-webfont.svg#angelinaregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'ArialRoundedMTBoldRegular';
+    src: url('../fonts/arial_rounded_mt_bold_bold-webfont.eot');
+    src: url('../fonts/arial_rounded_mt_bold_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arial_rounded_mt_bold_bold-webfont.woff2') format('woff2'),
+         url('../fonts/arial_rounded_mt_bold_bold-webfont.woff') format('woff'),
+         url('../fonts/arial_rounded_mt_bold_bold-webfont.ttf') format('truetype'),
+         url('../fonts/arial_rounded_mt_bold_bold-webfont.svg#bebas_neuebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../fonts/bebasneue-webfont.eot');
+    src: url('../fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue-webfont.woff') format('woff'),
+         url('../fonts/bebasneue-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue-webfont.svg#bebas_neuebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'eurostileregular';
+	src: url('../fonts/eurosti-webfont.eot');
+	src: url('../fonts/eurosti-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/eurosti-webfont.woff') format('woff'), url('../fonts/eurosti-webfont.ttf') format('truetype'), url('../fonts/eurosti-webfont.svg#eurostileregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'passingnotesmedium';
+	src: url('../fonts/passing_notes-webfont.eot');
+	src: url('../fonts/passing_notes-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/passing_notes-webfont.woff') format('woff'), url('../fonts/passing_notes-webfont.ttf') format('truetype'), url('../fonts/passing_notes-webfont.svg#passingnotesmedium') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ScandinavianVIExtraLight';
+	src: url('../fonts/scandinavianviextralight.eot');
+	src: url('../fonts/scandinavianviextralight.eot?#iefix') format('embedded-opentype'), url('../fonts/scandinavianviextralight.woff') format('woff'), url('../fonts/scandinavianviextralight.ttf') format('truetype'), url('../fonts/scandinavianviextralight.svg#scandinavianviextralight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ScandinavianVILight';
+	src: url('../fonts/scandinavianvilight.eot');
+	src: url('../fonts/scandinavianvilight.eot?#iefix') format('embedded-opentype'), url('../fonts/scandinavianvilight.woff') format('woff'), url('../fonts/scandinavianvilight.ttf') format('truetype'), url('../fonts/scandinavianvilight.svg#scandinavianvilight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ScandinavianVIBlack';
+	src: url('../fonts/scandinavianviblack.eot');
+	src: url('../fonts/scandinavianviblack.eot?#iefix') format('embedded-opentype'), url('../fonts/scandinavianviblack.woff') format('woff'), url('../fonts/scandinavianviblack.ttf') format('truetype'), url('../fonts/scandinavianviblack.svg#scandinavianviblack') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('../fonts/ubuntu-b-webfont.eot');
+    src: url('../fonts/ubuntu-b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-b-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-b-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-b-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntu-b-webfont.svg#ubuntubold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'ubuntubold_italic';
+	src: url('../fonts/ubuntu-bi-webfont.eot');
+	src: url('../fonts/ubuntu-bi-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/ubuntu-bi-webfont.woff') format('woff'), url('../fonts/ubuntu-bi-webfont.ttf') format('truetype'), url('../fonts/ubuntu-bi-webfont.svg#ubuntubold_italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntu_condensedregular';
+    src: url('../fonts/ubuntu-c-webfont.eot');
+    src: url('../fonts/ubuntu-c-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-c-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-c-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-c-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntu-c-webfont.svg#ubuntu_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('../fonts/ubuntu-l-webfont.eot');
+    src: url('../fonts/ubuntu-l-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-l-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-l-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-l-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntu-l-webfont.svg#ubuntulight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'ubuntulight_italic';
+	src: url('../fonts/ubuntu-li-webfont.eot');
+	src: url('../fonts/ubuntu-li-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/ubuntu-li-webfont.woff') format('woff'), url('../fonts/ubuntu-li-webfont.ttf') format('truetype'), url('../fonts/ubuntu-li-webfont.svg#ubuntulight_italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntumedium';
+    src: url('../fonts/ubuntu-m-webfont.eot');
+    src: url('../fonts/ubuntu-m-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-m-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-m-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-m-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntu-m-webfont.svg#ubuntumedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+	font-family: 'ubuntumedium_italic';
+	src: url('../fonts/ubuntu-mi-webfont.eot');
+	src: url('../fonts/ubuntu-mi-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/ubuntu-mi-webfont.woff') format('woff'), url('../fonts/ubuntu-mi-webfont.ttf') format('truetype'), url('../fonts/ubuntu-mi-webfont.svg#ubuntumedium_italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntu_monobold';
+    src: url('../fonts/ubuntumono-b-webfont.eot');
+    src: url('../fonts/ubuntumono-b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntumono-b-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntumono-b-webfont.woff') format('woff'),
+         url('../fonts/ubuntumono-b-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntumono-b-webfont.svg#ubuntu_monobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'ubuntu_monobold_italic';
+	src: url('../fonts/ubuntumono-bi-webfont.eot');
+	src: url('../fonts/ubuntumono-bi-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/ubuntumono-bi-webfont.woff') format('woff'), url('../fonts/ubuntumono-bi-webfont.ttf') format('truetype'), url('../fonts/ubuntumono-bi-webfont.svg#ubuntu_monobold_italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntu_monoregular';
+    src: url('../fonts/ubuntumono-r-webfont.eot');
+    src: url('../fonts/ubuntumono-r-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntumono-r-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntumono-r-webfont.woff') format('woff'),
+         url('../fonts/ubuntumono-r-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntumono-r-webfont.svg#ubuntu_monoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'ubuntu_monoitalic';
+	src: url('../fonts/ubuntumono-ri-webfont.eot');
+	src: url('../fonts/ubuntumono-ri-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/ubuntumono-ri-webfont.woff') format('woff'), url('../fonts/ubuntumono-ri-webfont.ttf') format('truetype'), url('../fonts/ubuntumono-ri-webfont.svg#ubuntu_monoitalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ubuntuitalic';
+	src: url('../fonts/ubuntu-ri-webfont.eot');
+	src: url('../fonts/ubuntu-ri-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/ubuntu-ri-webfont.woff') format('woff'), url('../fonts/ubuntu-ri-webfont.ttf') format('truetype'), url('../fonts/ubuntu-ri-webfont.svg#ubuntuitalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'vintageregular';
+	src: url('../fonts/vintage-webfont.eot');
+	src: url('../fonts/vintage-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/vintage-webfont.woff') format('woff'), url('../fonts/vintage-webfont.ttf') format('truetype'), url('../fonts/vintage-webfont.svg#vintageregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'monstroregular';
+    src: url('../fonts/pintassilgoprints_-_monstro-webfont.eot');
+    src: url('../fonts/pintassilgoprints_-_monstro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pintassilgoprints_-_monstro-webfont.woff') format('woff'),
+         url('../fonts/pintassilgoprints_-_monstro-webfont.ttf') format('truetype'),
+         url('../fonts/pintassilgoprints_-_monstro-webfont.svg#monstroregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*************************************/
+
+@font-face {
+    font-family: 'imprint_mt_shadowregular';
+    src: url('../fonts/imprisha-webfont.eot');
+    src: url('../fonts/imprisha-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/imprisha-webfont.woff2') format('woff2'),
+         url('../fonts/imprisha-webfont.woff') format('woff'),
+         url('../fonts/imprisha-webfont.ttf') format('truetype'),
+         url('../fonts/imprisha-webfont.svg#imprint_mt_shadowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vtks_desgasteregular';
+    src: url('../fonts/vtks_desgaste-webfont.eot');
+    src: url('../fonts/vtks_desgaste-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vtks_desgaste-webfont.woff2') format('woff2'),
+         url('../fonts/vtks_desgaste-webfont.woff') format('woff'),
+         url('../fonts/vtks_desgaste-webfont.ttf') format('truetype'),
+         url('../fonts/vtks_desgaste-webfont.svg#vtks_desgasteregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'wc_roughtrad_btaregular';
+    src: url('../fonts/wc_roughtrad-webfont.eot');
+    src: url('../fonts/wc_roughtrad-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/wc_roughtrad-webfont.woff2') format('woff2'),
+         url('../fonts/wc_roughtrad-webfont.woff') format('woff'),
+         url('../fonts/wc_roughtrad-webfont.ttf') format('truetype'),
+         url('../fonts/wc_roughtrad-webfont.svg#wc_roughtrad_btaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kaliber_xtreme_brkregular';
+    src: url('../fonts/kaliberx-webfont.eot');
+    src: url('../fonts/kaliberx-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kaliberx-webfont.woff2') format('woff2'),
+         url('../fonts/kaliberx-webfont.woff') format('woff'),
+         url('../fonts/kaliberx-webfont.ttf') format('truetype'),
+         url('../fonts/kaliberx-webfont.svg#kaliber_xtreme_brkregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'vtks_good_luck_for_youregular';
+    src: url('../fonts/vtksgoodluckforyou-webfont.eot');
+    src: url('../fonts/vtksgoodluckforyou-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vtksgoodluckforyou-webfont.woff2') format('woff2'),
+         url('../fonts/vtksgoodluckforyou-webfont.woff') format('woff'),
+         url('../fonts/vtksgoodluckforyou-webfont.ttf') format('truetype'),
+         url('../fonts/vtksgoodluckforyou-webfont.svg#vtks_good_luck_for_youregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gistlight';
+    src: url('../fonts/gistlight-webfont.eot');
+    src: url('../fonts/gistlight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gistlight-webfont.woff2') format('woff2'),
+         url('../fonts/gistlight-webfont.woff') format('woff'),
+         url('../fonts/gistlight-webfont.ttf') format('truetype'),
+         url('../fonts/gistlight-webfont.svg#gistlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'engagementregular';
+    src: url('../fonts/engagement-regular-webfont.eot');
+    src: url('../fonts/engagement-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/engagement-regular-webfont.woff2') format('woff2'),
+         url('../fonts/engagement-regular-webfont.woff') format('woff'),
+         url('../fonts/engagement-regular-webfont.ttf') format('truetype'),
+         url('../fonts/engagement-regular-webfont.svg#engagementregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'plasterregular';
+    src: url('../fonts/plaster-regular-webfont.eot');
+    src: url('../fonts/plaster-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/plaster-regular-webfont.woff2') format('woff2'),
+         url('../fonts/plaster-regular-webfont.woff') format('woff'),
+         url('../fonts/plaster-regular-webfont.ttf') format('truetype'),
+         url('../fonts/plaster-regular-webfont.svg#plasterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'arial_rounded_mt_boldbold';
+    src: url('../fonts/arial_rounded_mt_bold_bold-webfont.eot');
+    src: url('../fonts/arial_rounded_mt_bold_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arial_rounded_mt_bold_bold-webfont.woff2') format('woff2'),
+         url('../fonts/arial_rounded_mt_bold_bold-webfont.woff') format('woff'),
+         url('../fonts/arial_rounded_mt_bold_bold-webfont.ttf') format('truetype'),
+         url('../fonts/arial_rounded_mt_bold_bold-webfont.svg#arial_rounded_mt_boldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'ComicSansMS';
+  src: url('../fonts/ComicSansMS.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ComicSansMS.woff') format('woff'),
+		url('../fonts/ComicSansMS.ttf')  format('truetype'),
+		url('../fonts/ComicSansMS.svg#ComicSansMS') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Georgia';
+  src: url('../fonts/Georgia.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Georgia.woff') format('woff'),
+		url('../fonts/Georgia.ttf')  format('truetype'),
+		url('../fonts/Georgia.svg#Georgia') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BrushScriptStd';
+  src: url('../fonts/BrushScriptStd.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/BrushScriptStd.otf')  format('opentype'),
+  url('../fonts/BrushScriptStd.woff') format('woff'), 
+  url('../fonts/BrushScriptStd.ttf')  format('truetype'), 
+  url('../fonts/BrushScriptStd.svg#BrushScriptStd') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FormalScript421BT-Regular';
+  src: url('../fonts/FormalScript421BT-Regular.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/FormalScript421BT-Regular.woff') format('woff'), 
+  url('../fonts/FormalScript421BT-Regular.ttf')  format('truetype'), 
+  url('../fonts/FormalScript421BT-Regular.svg#FormalScript421BT-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'comfortaaregular';
+    src: url('../fonts/comfortaa-regular-webfont.eot');
+    src: url('../fonts/comfortaa-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/comfortaa-regular-webfont.woff2') format('woff2'),
+         url('../fonts/comfortaa-regular-webfont.woff') format('woff'),
+         url('../fonts/comfortaa-regular-webfont.ttf') format('truetype'),
+         url('../fonts/comfortaa-regular-webfont.svg#comfortaaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gotham_htfbold_condensed';
+    src: url('../fonts/gothamhtf-boldcondensed-webfont.eot');
+    src: url('../fonts/gothamhtf-boldcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gothamhtf-boldcondensed-webfont.woff2') format('woff2'),
+         url('../fonts/gothamhtf-boldcondensed-webfont.woff') format('woff'),
+         url('../fonts/gothamhtf-boldcondensed-webfont.ttf') format('truetype'),
+         url('../fonts/gothamhtf-boldcondensed-webfont.svg#gotham_htfbold_condensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gotham_htfbold';
+    src: url('../fonts/gothamhtf-bold-webfont.eot');
+    src: url('../fonts/gothamhtf-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gothamhtf-bold-webfont.woff2') format('woff2'),
+         url('../fonts/gothamhtf-bold-webfont.woff') format('woff'),
+         url('../fonts/gothamhtf-bold-webfont.ttf') format('truetype'),
+         url('../fonts/gothamhtf-bold-webfont.svg#gotham_htfbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'carringtonregular';
+    src: url('../fonts/carrington-webfont.eot');
+    src: url('../fonts/carrington-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/carrington-webfont.woff2') format('woff2'),
+         url('../fonts/carrington-webfont.woff') format('woff'),
+         url('../fonts/carrington-webfont.ttf') format('truetype'),
+         url('../fonts/carrington-webfont.svg#carringtonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cash_currencyregular';
+    src: url('../fonts/cash_currency-webfont.eot');
+    src: url('../fonts/cash_currency-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cash_currency-webfont.woff2') format('woff2'),
+         url('../fonts/cash_currency-webfont.woff') format('woff'),
+         url('../fonts/cash_currency-webfont.ttf') format('truetype'),
+         url('../fonts/cash_currency-webfont.svg#cash_currencyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kg_second_chances_sketchRg';
+    src: url('../fonts/kgsecondchancessketch-webfont.eot');
+    src: url('../fonts/kgsecondchancessketch-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kgsecondchancessketch-webfont.woff2') format('woff2'),
+         url('../fonts/kgsecondchancessketch-webfont.woff') format('woff'),
+         url('../fonts/kgsecondchancessketch-webfont.ttf') format('truetype'),
+         url('../fonts/kgsecondchancessketch-webfont.svg#kg_second_chances_sketchRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*  03/11/2015 */
+@font-face {
+    font-family: 'bad_scriptregular';
+    src: url('../fonts/bad_script_regular-webfont.eot');
+    src: url('../fonts/bad_script_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bad_script_regular-webfont.woff2') format('woff2'),
+         url('../fonts/bad_script_regular-webfont.woff') format('woff'),
+         url('../fonts/bad_script_regular-webfont.ttf') format('truetype'),
+         url('../fonts/bad_script_regular-webfont.svg#bad_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rupster_script_freeregular';
+    src: url('../fonts/rupsterscriptfree-webfont.eot');
+    src: url('../fonts/rupsterscriptfree-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rupsterscriptfree-webfont.woff2') format('woff2'),
+         url('../fonts/rupsterscriptfree-webfont.woff') format('woff'),
+         url('../fonts/rupsterscriptfree-webfont.ttf') format('truetype'),
+         url('../fonts/rupsterscriptfree-webfont.svg#rupster_script_freeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'sprite_graffitishadow';
+    src: url('../fonts/spritegraffitishadow-webfont.eot');
+    src: url('../fonts/spritegraffitishadow-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/spritegraffitishadow-webfont.woff2') format('woff2'),
+         url('../fonts/spritegraffitishadow-webfont.woff') format('woff'),
+         url('../fonts/spritegraffitishadow-webfont.ttf') format('truetype'),
+         url('../fonts/spritegraffitishadow-webfont.svg#sprite_graffitishadow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'GelatoScript';
+  src: url('../fonts/GelatoScript.eot?#iefix') format('embedded-opentype'),  url('../fonts/GelatoScript.otf')  format('opentype'),
+	     url('../fonts/GelatoScript.woff') format('woff'), url('../fonts/GelatoScript.ttf')  format('truetype'), url('../fonts/GelatoScript.svg#GelatoScript') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINCondensed-Bold';
+  src: url('../fonts/DINCondensed-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/DINCondensed-Bold.woff') format('woff'), url('../fonts/DINCondensed-Bold.ttf')  format('truetype'), url('../fonts/DINCondensed-Bold.svg#DINCondensed-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'schmutz_icg_cleanedregular';
+    src: url('../fonts/schmutz_icg_cleaned-webfont.eot');
+    src: url('../fonts/schmutz_icg_cleaned-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/schmutz_icg_cleaned-webfont.woff2') format('woff2'),
+         url('../fonts/schmutz_icg_cleaned-webfont.woff') format('woff'),
+         url('../fonts/schmutz_icg_cleaned-webfont.ttf') format('truetype'),
+         url('../fonts/schmutz_icg_cleaned-webfont.svg#schmutz_icg_cleanedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'giza_fivefiveregular';
+    src: url('../fonts/giza-fivefive-webfont.eot');
+    src: url('../fonts/giza-fivefive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/giza-fivefive-webfont.woff2') format('woff2'),
+         url('../fonts/giza-fivefive-webfont.woff') format('woff'),
+         url('../fonts/giza-fivefive-webfont.ttf') format('truetype'),
+         url('../fonts/giza-fivefive-webfont.svg#giza_fivefiveregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'give_me_some_sugarregular';
+    src: url('../fonts/give_me_some_sugar_2-webfont.eot');
+    src: url('../fonts/give_me_some_sugar_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/give_me_some_sugar_2-webfont.woff2') format('woff2'),
+         url('../fonts/give_me_some_sugar_2-webfont.woff') format('woff'),
+         url('../fonts/give_me_some_sugar_2-webfont.ttf') format('truetype'),
+         url('../fonts/give_me_some_sugar_2-webfont.svg#give_me_some_sugarregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/MyriadPro-Regular.otf')  format('opentype'),
+	     url('../fonts/MyriadPro-Regular.woff') format('woff'),
+		 url('../fonts/MyriadPro-Regular.ttf')  format('truetype'),
+		 url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'sacramentoregular';
+    src: url('../fonts/sacramento-regular-webfont.eot');
+    src: url('../fonts/sacramento-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sacramento-regular-webfont.woff2') format('woff2'),
+         url('../fonts/sacramento-regular-webfont.woff') format('woff'),
+         url('../fonts/sacramento-regular-webfont.ttf') format('truetype'),
+         url('../fonts/sacramento-regular-webfont.svg#sacramentoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'festusregular';
+    src: url('../fonts/festus-webfont.eot');
+    src: url('../fonts/festus-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/festus-webfont.woff2') format('woff2'),
+         url('../fonts/festus-webfont.woff') format('woff'),
+         url('../fonts/festus-webfont.ttf') format('truetype'),
+         url('../fonts/festus-webfont.svg#festusregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ds_novablack';
+    src: url('../fonts/ds_nova_black-webfont.eot');
+    src: url('../fonts/ds_nova_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ds_nova_black-webfont.woff2') format('woff2'),
+         url('../fonts/ds_nova_black-webfont.woff') format('woff'),
+         url('../fonts/ds_nova_black-webfont.ttf') format('truetype'),
+         url('../fonts/ds_nova_black-webfont.svg#ds_novablack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'rusboycottregular';
+    src: url('../fonts/rusboycott-webfont.eot');
+    src: url('../fonts/rusboycott-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rusboycott-webfont.woff2') format('woff2'),
+         url('../fonts/rusboycott-webfont.woff') format('woff'),
+         url('../fonts/rusboycott-webfont.ttf') format('truetype'),
+         url('../fonts/rusboycott-webfont.svg#rusboycottregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Deleted*/
+@font-face {
+    font-family: 'eraserregular';
+    src: url('../fonts/eraserregular-webfont.eot');
+    src: url('../fonts/eraserregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/eraserregular-webfont.woff2') format('woff2'),
+         url('../fonts/eraserregular-webfont.woff') format('woff'),
+         url('../fonts/eraserregular-webfont.ttf') format('truetype'),
+         url('../fonts/eraserregular-webfont.svg#eraserregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hanzelnormal';
+    src: url('../fonts/hanzel_normal-webfont.eot');
+    src: url('../fonts/hanzel_normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/hanzel_normal-webfont.woff') format('woff'),
+         url('../fonts/hanzel_normal-webfont.ttf') format('truetype'),
+         url('../fonts/hanzel_normal-webfont.svg#hanzelnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hanzel_widenormal';
+    src: url('../fonts/hanzel_wide_normal-webfont.eot');
+    src: url('../fonts/hanzel_wide_normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/hanzel_wide_normal-webfont.woff') format('woff'),
+         url('../fonts/hanzel_wide_normal-webfont.ttf') format('truetype'),
+         url('../fonts/hanzel_wide_normal-webfont.svg#hanzel_widenormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'janda_safe_and_soundregular';
+    src: url('../fonts/jandasafeandsound-webfont.eot');
+    src: url('../fonts/jandasafeandsound-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/jandasafeandsound-webfont.woff2') format('woff2'),
+         url('../fonts/jandasafeandsound-webfont.woff') format('woff'),
+         url('../fonts/jandasafeandsound-webfont.ttf') format('truetype'),
+         url('../fonts/jandasafeandsound-webfont.svg#janda_safe_and_soundregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'janda_safe_and_sound_solidRg';
+    src: url('../fonts/jandasafeandsoundsolid-webfont.eot');
+    src: url('../fonts/jandasafeandsoundsolid-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/jandasafeandsoundsolid-webfont.woff2') format('woff2'),
+         url('../fonts/jandasafeandsoundsolid-webfont.woff') format('woff'),
+         url('../fonts/jandasafeandsoundsolid-webfont.ttf') format('truetype'),
+         url('../fonts/jandasafeandsoundsolid-webfont.svg#janda_safe_and_sound_solidRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kaliber_solid_brkregular';
+    src: url('../fonts/kalibers-webfont.eot');
+    src: url('../fonts/kalibers-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kalibers-webfont.woff2') format('woff2'),
+         url('../fonts/kalibers-webfont.woff') format('woff'),
+         url('../fonts/kalibers-webfont.ttf') format('truetype'),
+         url('../fonts/kalibers-webfont.svg#kaliber_solid_brkregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family:'Papyrus-Regular';
+	src: url('../fonts/Papyrus-Regular_gdi.eot');
+	src: url('../fonts/Papyrus-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Papyrus-Regular_gdi.woff') format('woff'),
+		url('../fonts/Papyrus-Regular_gdi.ttf') format('truetype'),
+		url('../fonts/Papyrus-Regular_gdi.svg#Papyrus-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+@font-face {
+    font-family: 'roughtypewriterregular';
+    src: url('../fonts/rough_typewriter-webfont.eot');
+    src: url('../fonts/rough_typewriter-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rough_typewriter-webfont.woff2') format('woff2'),
+         url('../fonts/rough_typewriter-webfont.woff') format('woff'),
+         url('../fonts/rough_typewriter-webfont.ttf') format('truetype'),
+         url('../fonts/rough_typewriter-webfont.svg#roughtypewriterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'scrypticali_italscrypticaliIt';
+    src: url('../fonts/scryptii-webfont.eot');
+    src: url('../fonts/scryptii-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/scryptii-webfont.woff2') format('woff2'),
+         url('../fonts/scryptii-webfont.woff') format('woff'),
+         url('../fonts/scryptii-webfont.ttf') format('truetype'),
+         url('../fonts/scryptii-webfont.svg#scrypticali_italscrypticaliIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'square_721roman';
+	src: url('../fonts/square_721-webfont.eot');
+	src: url('../fonts/square_721-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/square_721-webfont.woff') format('woff'), url('../fonts/square_721-webfont.ttf') format('truetype'), url('../fonts/square_721-webfont.svg#square_721roman') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'vtks_chalk_79regular';
+    src: url('../fonts/vtks_chalk_79-webfont.eot');
+    src: url('../fonts/vtks_chalk_79-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vtks_chalk_79-webfont.woff2') format('woff2'),
+         url('../fonts/vtks_chalk_79-webfont.woff') format('woff'),
+         url('../fonts/vtks_chalk_79-webfont.ttf') format('truetype'),
+         url('../fonts/vtks_chalk_79-webfont.svg#vtks_chalk_79regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* / Deleted*/
+
+@font-face {
+    font-family: 'stint_ultra_expandedregular';
+    src: url('../fonts/stintultraexpanded-regular-webfont.eot');
+    src: url('../fonts/stintultraexpanded-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/stintultraexpanded-regular-webfont.woff2') format('woff2'),
+         url('../fonts/stintultraexpanded-regular-webfont.woff') format('woff'),
+         url('../fonts/stintultraexpanded-regular-webfont.svg#stint_ultra_expandedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gotham_thinregular';
+    src: url('../fonts/gotham-thin-webfont.eot');
+    src: url('../fonts/gotham-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-thin-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-thin-webfont.woff') format('woff'),
+         url('../fonts/gotham-thin-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-thin-webfont.svg#gotham_thinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'times_new_romanregular';
+    src: url('../fonts/times-webfont.eot');
+    src: url('../fonts/times-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/times-webfont.woff2') format('woff2'),
+         url('../fonts/times-webfont.woff') format('woff'),
+         url('../fonts/times-webfont.ttf') format('truetype'),
+         url('../fonts/times-webfont.svg#times_new_romanregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
